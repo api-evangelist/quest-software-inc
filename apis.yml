@@ -1,8 +1,17 @@
 aid: quest-software-inc
 name: Quest Software Inc.
-description: Quest Software Inc. is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Quest Software Inc. is a privately held IT management and cybersecurity
+  software company headquartered in Aliso Viejo, California. Its portfolio spans
+  database management and development (Toad), database and infrastructure
+  performance monitoring (Foglight, Spotlight), unified endpoint management
+  (KACE), Microsoft platform management and security (On Demand, Change Auditor,
+  Recovery Manager, Migration Manager), data protection and backup (NetVault,
+  QoreStor, Rapid Recovery), data replication (SharePlex), and data governance
+  and modeling (erwin). Its products are distributed and supported through the
+  Quest Support portal. Surfaced as a portfolio-lead stub and processed by the
+  API Evangelist enrichment pipeline; no public, first-party developer API
+  portal or OpenAPI surface was discoverable at enrichment time.
 url: https://raw.githubusercontent.com/api-evangelist/quest-software-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +19,31 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.quest.com/images/rwd/logos/quest-logo.svg
 tags:
 - Company
+- IT Management
+- Database Management
+- Endpoint Management
+- Data Protection
+- Cybersecurity
+- Microsoft Platform Management
+- Data Governance
+- Enterprise Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +52,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.quest.com/
+  url: https://www.quest.com/
+- type: Support
+  url: https://support.quest.com/
+- type: DomainSecurity
+  url: security/quest-software-inc-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
