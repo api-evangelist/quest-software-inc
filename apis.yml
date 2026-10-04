@@ -1,5 +1,5 @@
 aid: quest-software-inc
-name: Quest Software Inc.
+name: Quest Software
 description: >-
   Quest Software Inc. is a privately held IT management and cybersecurity
   software company headquartered in Aliso Viejo, California. Its portfolio spans
@@ -73,3 +73,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Quest Software Inc.
